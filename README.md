@@ -7,6 +7,21 @@ A browser extension that redirects Medium articles to the [Freedium Service](htt
 - **Context Menu Redirection**: Right-click on any Medium page or link and select "Open with Freedium" to redirect the link or current page.
   
 ## Installation
+You can install the Freedium Browser Extension using one of the two methods:
+
+### **1. Easy Installation Using the `.crx` File**
+
+1. [Download the `.crx` file](https://github.com/ayekaun-inc/Freedium-Browser-Extension/releases/tag/v1.0.0) for the extension.
+2. **Open Chrome or Opera** and navigate to the Extensions page:
+   - Chrome: `chrome://extensions/`
+   - Opera: `opera://extensions/`
+3. Enable **Developer Mode** by toggling the switch in the upper-right corner.
+4. **Drag and drop the `.crx` file** onto the Extensions page.
+5. Follow the prompts to install the extension.
+6. The Freedium Browser Extension should now appear in your browser’s toolbar.
+
+### **2. Manual Installation**
+
 To install the extension manually:
 
 1. **Download the repository** or clone it using:
