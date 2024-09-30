@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Freedium Redirector",
+    "version": "1.0.0",
+    "description": "Manually redirect Medium articles to freedium.cfd",
+    "permissions": [
+      "contextMenus",
+      "tabs",
+      "activeTab",
+      "scripting"
+    ],
+    "host_permissions": [
+      "*://*.medium.com/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": {
+        "48": "icon.png"
+      },
+      "default_title": "Redirect Medium Article"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
